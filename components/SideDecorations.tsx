@@ -134,7 +134,7 @@ export default function SideDecorations() {
             <text x={180} y={350} opacity={0.4}>def</text>
             <text x={180} y={370} opacity={0.3}>  model</text>
             <text x={180} y={390} opacity={0.4}>  return</text>
-            <text x={180} y={410} opacity={0.3}>}</text>
+            <text x={180} y={410} opacity={0.3}>{'}'}</text>
           </g>
 
           {/* Matrix-style Code - Fixed Pattern */}

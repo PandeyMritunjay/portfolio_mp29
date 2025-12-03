@@ -102,11 +102,14 @@ export default function About() {
             >
               {/* Profile Image */}
               <div className="relative z-10">
-                <img
+                <Image
                   src="/Mritunjay.jpg"
                   alt="Mritunjay Pandey"
+                  width={600}
+                  height={500}
                   className="w-full h-auto rounded-3xl object-cover shadow-2xl"
                   style={{ maxHeight: '500px', borderRadius: '1.5rem' }}
+                  priority
                 />
               </div>
             </motion.div>
@@ -121,7 +124,7 @@ export default function About() {
               {/* Heading */}
               <div>
                 <h2 className="text-7xl md:text-3xl font-bold mb-6">
-                  <span className="text-gray-900">Hello, I'm </span>
+                  <span className="text-gray-900">Hello, I&apos;m </span>
                   <span className="text-pink-500">Mritunjay Pandey</span>
                 </h2>
                 <h3 className="text-3xl md:text-3xl font-bold text-pink-500 mb-6">

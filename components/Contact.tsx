@@ -78,7 +78,7 @@ export default function Contact() {
               <span className="text-gradient">Touch</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-2xl mx-auto font-light">
-              Let's collaborate on your next AI/ML project
+              Let&apos;s collaborate on your next AI/ML project
             </p>
           </motion.div>
 
@@ -94,7 +94,7 @@ export default function Contact() {
                 Connect With Me
               </h3>
               <p className="text-gray-400 mb-8 font-light leading-relaxed">
-                I'm always open to discussing new projects, creative ideas, or opportunities
+                I&apos;m always open to discussing new projects, creative ideas, or opportunities
                 to be part of your vision. Feel free to reach out through any of these channels.
               </p>
 
