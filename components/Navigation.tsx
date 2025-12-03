@@ -24,7 +24,7 @@ export default function Navigation() {
           <motion.a
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            href="https://drive.google.com/file/d/1U-rq-xzygKpEt1tUrLETozy1xKsXyVhK/view?usp=sharing"
+            href="https://drive.google.com/file/d/1sDdnDEQUMfyNy2M_1eSwazplsbOg5jg9/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="relative inline-flex items-center justify-center w-36 h-16"
