@@ -7,6 +7,7 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import Experience from '../components/Experience'
+import BottomContactBar from '../components/BottomContactBar'
 import ParticleBackground from '../components/ParticleBackground'
 import GradientShapes from '../components/GradientShapes'
 import SideDecorations from '../components/SideDecorations'
@@ -32,9 +33,10 @@ export default function Home() {
         <About />
         <Skills />
         <Projects />
-        <main className="px-4 sm:px-8 lg:px-12 xl:px-20 space-y-24 pb-8">
+        <main className="px-4 sm:px-8 lg:px-12 xl:px-20 space-y-24 pb-0">
           <Experience />
         </main>
+        <BottomContactBar />
         
         {/* Footer Ribbon */}
         <footer className="relative z-10 w-full py-4 text-center bg-black/40 border-t border-white/10 backdrop-blur-sm">
